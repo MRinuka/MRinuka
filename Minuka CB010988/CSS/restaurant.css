@@ -1,0 +1,88 @@
+.sl {
+   display: inline;
+   float: right; 
+   margin-top: 90px;
+   margin-right: 50px;
+   background: lightgreen;
+   padding: 40px;
+   align-items: center;
+   align-self: center;
+   width: 700px;
+}
+
+.sl-rest {
+    display: block;
+    margin: 20px;
+}
+
+.sl-food {
+    float: left;
+    display: inline;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.east-asian {
+    margin-top: 20px;
+    display: block;
+    padding: 20px;
+    float: right;
+}
+
+.asian-food {
+    float: right;
+    display: inline;
+    width: 500px;
+}
+
+.asian {
+    display: inline;
+    float: left; 
+    margin-top: 90px;
+    margin-right: 50px;
+    background: rgba(141, 107, 107, 0.783);
+    padding: 40px;
+    align-items: center;
+    align-self: center;
+    width: 600px;
+}
+
+.europe {
+    margin-top: 20px;
+    display: block;
+    padding: 20px;
+    float: left;
+}
+
+.europe-food {
+    float: left;
+    display: inline;
+    width: 500px;
+}
+
+.european {
+    display: inline;
+    float: right; 
+    margin-top: 90px;
+    margin-right: 20px;
+    background: rgba(192, 22, 22, 0.862);
+    padding: 40px;
+    align-items: center;
+    align-self: center;
+    width: 600px;
+}
+
+.footer {
+    background: goldenrod;
+    color: #fff;
+    display: block;
+    flex-direction: row;
+    margin-top: 1800px;
+}
+
+.foot {
+    display: flexbox;
+
+}

@@ -1,0 +1,250 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility */
+.logo {
+    font-family: cursive;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.lead {
+    font-size: 18px;
+
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: gold;
+    color: #333;
+}
+
+.about-btn {
+    padding-top: 40px;
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    background: wheat;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    background: gold;
+    color: #333;
+}
+
+.footer {
+    background: goldenrod;
+    color: #fff;
+    display: block;
+    flex-direction: row;
+    
+}
+
+.foot {
+    display: flexbox;
+
+}
+
+#footer {
+    display: block;
+    float: left;
+    background: goldenrod;
+
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* main styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    margin: 10px 0;
+    padding: 40px;
+    height: 450px;
+}
+/* navbar */
+#navbar {
+    display: flexbox;
+    background: goldenrod;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* showcase */
+#showcase {
+    background: url(../Assets/pexels-pok-rie-130879.jpg) no-repeat
+    center center/cover;
+    height: 500px;
+}
+
+.showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.showcase-content h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    line-height: 2em;
+}
+
+.showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    display: inline;
+    float: left;
+    width: 50%;
+    background: url(../Assets/Screen\ Shot\ 2023-08-26\ at\ 3.27.13\ PM.png);
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 1.48.15\ PM.png);
+}
+
+#home-info-2 {
+    height: 400px;
+}
+
+#home-info-2 .rest-img {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 2.07.48\ PM.png);
+}
+
+#home-info-2 .info-content {
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 2.07.48\ PM.png);
+}
+
+#home-info-3 {
+    height: 400px;
+}
+
+#home-info-3 .info-img {
+    display: inline;
+    float: left;
+    width: 50%;
+    background: url(../Assets/Screen\ Shot\ 2023-08-29\ at\ 1.36.34\ PM.png);
+    min-height: 100%;
+}
+
+#home-info-3 .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 1.48.15\ PM.png) no-repeat;
+}
+
+/* Branch Page */
+#br-content-1 .branch-img {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+#br-content-1 .branch-text {
+    display: inline;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 70px 30px;
+    background: rgb(142, 214, 237);
+    margin: 20px 90px;
+}
+
+/* Booking Page */
+
+

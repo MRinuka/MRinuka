@@ -1,0 +1,82 @@
+h1 {
+    align-items: center;
+    
+}
+
+select {
+    display: inline;
+}
+
+form {
+    margin: 30px;
+    display: inline;
+    align-items: justify;
+    padding: 30px;
+}
+
+.form {
+    align-items: center;
+    margin: 40px;
+    background-color: moccasin;
+    height: 30px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    transition: background-color 2s 
+    ease-out 100ms;
+    
+}
+
+
+.form:hover {
+    background-color: rgb(189, 218, 243);
+}
+
+#locations {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.book-now {
+    padding: 20px;
+    margin: 20px;
+}
+
+.data {
+    margin: 10px;
+    
+    
+    
+}
+
+#check-in {
+    margin: 10px;
+    
+}
+
+#check-out {
+    margin: 10px
+}
+
+#no {
+    margin: 5px;
+}
+.form-2 {
+    align-items: center;
+    margin: 40px;
+    background-color: moccasin;
+    height: 30px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    transition: background-color 2s 
+    ease-out 100ms;
+    
+}
+
+.form-2:hover {
+    background-color: lightgreen;
+}
